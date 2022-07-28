@@ -34,9 +34,7 @@ npx chef-socket folder --plugin path/to/plugin.js
 
 demo (with chat plugin)
 
-```
 https://chef-js-socket.herokuapp.com/
-```
 
 see [chef-socket](https://github.com/chef-js/socket) to find out more
 
@@ -51,9 +49,7 @@ npx chef-uws folder --plugin path/to/plugin.js
 
 demo (with chat plugin)
 
-```
 https://chef-js-uws.herokuapp.com/
-```
 
 see [chef-uws](https://github.com/chef-js/uws) to find out more
 

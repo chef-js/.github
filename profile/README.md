@@ -1,14 +1,38 @@
 <img style="max-width: 100%;" src="https://raw.githubusercontent.com/chef-js/express/main/chef.png" width="150" />
 
-- **static files server**
-- **web-sockets** micro-service manager (at the same port)
-- designed for **node**
-- written in **typescript**
-- with **tests**
+- **static-files-server** designed for **single-page-applications**
+- **404**'s fallback to **index.html** with a **200** status code
+- written in **typescript**, usable as a **command-line-interface** (or **runtime libraries**)
+- with **many tests** and **continuous-integration**
+- and [optional] **web-sockets** micro-service manager (at the same port)
 
-## [chef-express](https://github.com/chef-js/express) &rarr; <a href="https://badge.fury.io/js/chef-express"><img src="https://badge.fury.io/js/chef-express.svg" alt="npm package version" /></a> <a href="https://circleci.com/gh/chef-js/express"><img src="https://circleci.com/gh/chef-js/express.svg?style=shield" alt="tests status" /></a>
+# Express
+<a href="https://badge.fury.io/js/chef-express"><img src="https://badge.fury.io/js/chef-express.svg" alt="npm package version" /></a> <a href="https://circleci.com/gh/chef-js/express"><img src="https://circleci.com/gh/chef-js/express.svg?style=shield" alt="tests status" /></a>
 
-## [chef-socket](https://github.com/chef-js/socket) &rarr; <a href="https://badge.fury.io/js/chef-socket"><img src="https://badge.fury.io/js/chef-socket.svg" alt="npm package version" /></a> <a href="https://circleci.com/gh/chef-js/socket"><img src="https://circleci.com/gh/chef-js/socket.svg?style=shield" alt="tests status" /></a>
+The most basic flavor of the core library - doesn't have websockets functionality
+
+```
+npx chef-express folder
+```
+
+open
+
+```
+http://localhost:4200
+```
+
+see [chef-express](https://github.com/chef-js/express) for more information about command line parameters
+
+# Socket
+<a href="https://badge.fury.io/js/chef-socket"><img src="https://badge.fury.io/js/chef-socket.svg" alt="npm package version" /></a> <a href="https://circleci.com/gh/chef-js/socket"><img src="https://circleci.com/gh/chef-js/socket.svg?style=shield" alt="tests status" /></a>
+
+On top of the Express adds socket.io for websockets functionality (at the same port as the http server)
+
+```
+npx chef-socket folder --plugin path/to/plugin.js
+```
+
+Read more about websocket plugins here [chef-socket](https://github.com/chef-js/socket)
 
 ## [chef-uws](https://github.com/chef-js/uws) &rarr; <a href="https://badge.fury.io/js/chef-uws"><img src="https://badge.fury.io/js/chef-uws.svg" alt="npm package version" /></a> <a href="https://circleci.com/gh/chef-js/uws"><img src="https://circleci.com/gh/chef-js/uws.svg?style=shield" alt="tests status" /></a>
 

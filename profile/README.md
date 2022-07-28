@@ -1,4 +1,4 @@
-<img style="max-width: 100%;" src="https://raw.githubusercontent.com/chef-js/express/main/chef.png" width="150" />
+<img align="left" style="max-width: 100%" src="https://raw.githubusercontent.com/chef-js/express/main/chef.png" width="150" />
 
 - **static-files-server** designed for **single-page-applications**
 - **404**'s fallback to **index.html** with a **200** status code

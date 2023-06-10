@@ -1,4 +1,4 @@
-<img align="left" style="max-width: 100%" src="https://raw.githubusercontent.com/chef-js/express/main/chef.png" width="150" />
+<img align="left" style="max-width: 100%" src="https://raw.githubusercontent.com/chef-js/express/main/chef.png" width="170" />
 
 - on the **same port**:
 - **static-files-server** designed for **single-page-applications**

@@ -1,10 +1,11 @@
 <img align="left" style="max-width: 100%" src="https://raw.githubusercontent.com/chef-js/express/main/chef.png" width="150" />
 
+- on the **same port**:
 - **static-files-server** designed for **single-page-applications**
 - **404**'s fallback to **index.html** with a **200** status code
 - written in **typescript**, usable as a **command-line-interface** (or **runtime libraries**)
 - with **many tests** and **continuous-integration**
-- and [optional] **web-sockets** micro-service manager (at the same port)
+- and [optional] **web-sockets** micro-service manager
 
 # Express
 <a href="https://badge.fury.io/js/chef-express"><img src="https://badge.fury.io/js/chef-express.svg" alt="npm package version" /></a> <a href="https://circleci.com/gh/chef-js/express"><img src="https://circleci.com/gh/chef-js/express.svg?style=shield" alt="tests status" /></a>

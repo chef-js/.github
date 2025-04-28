@@ -16,12 +16,6 @@ The most basic flavor of the core library - doesn't have websockets functionalit
 npx chef-express folder
 ```
 
-open
-
-```
-http://localhost:4200
-```
-
 see [chef-express](https://github.com/chef-js/express) for more information about command line parameters
 
 # Socket

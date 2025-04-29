@@ -10,7 +10,7 @@
 - optional **cache**
 - optional **web-sockets** micro-service manager on **same port**
 
-# Express
+## Express
 
 [<img src="https://img.shields.io/npm/v/chef-express?style=for-the-badge&color=success" alt="npm version" />](https://www.npmjs.com/package/chef-express?activeTab=versions)
 [<img src="https://img.shields.io/circleci/build/github/chef-js/express/main?style=for-the-badge" alt="build status" />](https://app.circleci.com/pipelines/github/chef-js/express)
@@ -23,7 +23,7 @@ npx chef-express folder
 
 see [chef-express](https://github.com/chef-js/express) for more information about command line parameters
 
-# Socket
+## Socket
 
 [<img src="https://img.shields.io/npm/v/chef-socket?style=for-the-badge&color=success" alt="npm version" />](https://www.npmjs.com/package/chef-socket?activeTab=versions)
 [<img src="https://img.shields.io/circleci/build/github/chef-js/socket/main?style=for-the-badge" alt="build status" />](https://app.circleci.com/pipelines/github/chef-js/socket)
@@ -36,6 +36,6 @@ npx chef-socket folder [--plugin node_modules/chef-socket/chat.js]
 
 see [chef-socket](https://github.com/chef-js/socket) to find out more
 
-## demo (with chat plugin)
+### demo (with chat plugin)
 
 https://chef-socket.pietal.dev/

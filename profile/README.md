@@ -29,7 +29,7 @@ npx chef-socket folder --plugin path/to/plugin.js
 
 demo (with chat plugin)
 
-https://chef-js-socket.herokuapp.com/
+https://chef-socket.pietal.dev/
 
 see [chef-socket](https://github.com/chef-js/socket) to find out more
 

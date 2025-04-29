@@ -1,9 +1,13 @@
-<img align="left" style="max-width: 100%" src="https://raw.githubusercontent.com/chef-js/core/main/chef.svg" width="170" />
+# chef-js
 
-- **static-files-server** designed for **single-page-applications**
-- written in **typescript**, usable as a **command-line-tool** (or **runtime library**)
+## start cooking!
+
+- **chef-*** is a **static-files-server**
+- written in **typescript**
+- usable as a **command-line-tool** (or **runtime library**)
 - with **many tests** and **continuous-integration**
 - optional **404** fallback to **index.html** with a **200** status code (spa)
+- optional **cache**
 - optional **web-sockets** micro-service manager on **same port**
 
 # Express

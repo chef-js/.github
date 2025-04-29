@@ -31,7 +31,7 @@ see [chef-express](https://github.com/chef-js/express) for more information abou
 On top of the base adds socket.io for websockets functionality on the same port.
 
 ```
-npx chef-socket folder --plugin path/to/plugin.js
+npx chef-socket folder [--plugin node_modules/chef-socket/chat.js]
 ```
 
 see [chef-socket](https://github.com/chef-js/socket) to find out more

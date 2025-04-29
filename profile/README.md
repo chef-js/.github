@@ -11,7 +11,9 @@
 - optional **web-sockets** micro-service manager on **same port**
 
 # Express
-<a href="https://badge.fury.io/js/chef-express"><img src="https://badge.fury.io/js/chef-express.svg" alt="npm package version" /></a> <a href="https://circleci.com/gh/chef-js/express"><img src="https://circleci.com/gh/chef-js/express.svg?style=shield" alt="tests status" /></a>
+
+[<img src="https://img.shields.io/npm/v/chef-express?style=for-the-badge&color=success" alt="npm version" />](https://www.npmjs.com/package/chef-express?activeTab=versions)
+[<img src="https://img.shields.io/circleci/build/github/Prozi/chef-express/main?style=for-the-badge" alt="build status" />](https://app.circleci.com/pipelines/github/Prozi/chef-express)
 
 The most basic flavor of the core library - serve folder. port defaults to 3000
 
@@ -22,7 +24,9 @@ npx chef-express folder
 see [chef-express](https://github.com/chef-js/express) for more information about command line parameters
 
 # Socket
-<a href="https://badge.fury.io/js/chef-socket"><img src="https://badge.fury.io/js/chef-socket.svg" alt="npm package version" /></a> <a href="https://circleci.com/gh/chef-js/socket"><img src="https://circleci.com/gh/chef-js/socket.svg?style=shield" alt="tests status" /></a>
+
+[<img src="https://img.shields.io/npm/v/chef-socket?style=for-the-badge&color=success" alt="npm version" />](https://www.npmjs.com/package/chef-socket?activeTab=versions)
+[<img src="https://img.shields.io/circleci/build/github/Prozi/chef-socket/main?style=for-the-badge" alt="build status" />](https://app.circleci.com/pipelines/github/Prozi/chef-socket)
 
 On top of the base adds socket.io for websockets functionality on the same port.
 

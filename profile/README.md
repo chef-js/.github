@@ -1,10 +1,9 @@
 <img align="left" style="max-width: 100%" src="https://raw.githubusercontent.com/chef-js/core/main/chef.svg" width="170" />
 
-- on the **same port**:
 - **static-files-server** designed for **single-page-applications**
-- optional **404** fallback to **index.html** with a **200** status code (spa)
 - written in **typescript**, usable as a **command-line-tool** (or **runtime library**)
 - with **many tests** and **continuous-integration**
+- optional **404** fallback to **index.html** with a **200** status code (spa)
 - optional **web-sockets** micro-service manager on **same port**
 
 # Express
